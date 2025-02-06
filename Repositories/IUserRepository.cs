@@ -8,7 +8,5 @@ namespace SentimentAnalysis.Sentiment_Analysis.Repositories
 {
     class IUserRepository
     {
-        public int Id { get; set; }
-        public int test;
     }
 }
