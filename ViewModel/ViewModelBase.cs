@@ -9,6 +9,6 @@ namespace SentimentAnalysis.Sentiment_Analysis.ViewModel
         public void OnPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));    
-        }
+        } // comment
     }
 }
