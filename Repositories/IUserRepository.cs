@@ -9,5 +9,6 @@ namespace SentimentAnalysis.Sentiment_Analysis.Repositories
     class IUserRepository
     {
         public int Id { get; set; }
+        private int _Age;
     }
 }
